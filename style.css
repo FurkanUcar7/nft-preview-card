@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.image{
+  height: 300px;
+  border-radius: 10px;
+}
+
+.card{
+  width: 340px;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+}
+
+.card-title h2{
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0 20px 0;
+}
+
+.card-title-p{
+  font-size: 17px;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-title-bottom{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.card-title-bottom p{
+  margin: 20px 0 20px 0;
+
+}
+
+.card-bottom-right-p{
+  color: hsl(178, 100%, 50%);
+}
+
+.card-bottom-left-p{
+  color: hsl(215, 51%, 70%);
+}
+
+.avatarFoto{
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+
+.card-footer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-footer p{
+  margin-top: 9px;
+  color: hsl(215, 51%, 70%);;
+}
+
+.card-footer span{
+  color: white;
+}
+
+.iconBoyut{
+  height: 15px;
+}
